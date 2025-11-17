@@ -48,6 +48,10 @@ Hands-on ML projects including model training, evaluation, and API deployment.
 **Data Analyst Intern – iSTUDIO (Oct 2025)**  
 Worked on cleaning, transforming, and analyzing real-world datasets.
 
+
+ARTIFICIAL INTELLIGENCE - TRAINER
+
+
 ---
 
 ## 🏆 Certifications  
