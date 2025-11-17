@@ -59,7 +59,7 @@ Worked on cleaning, transforming, and analyzing real-world datasets.
 ---
 
 📫 **Let's connect!**  
-🔗 www.linkedin.com/in/kesavanedatascientist
+www.linkedin.com/in/kesavan-elumalai
 📧 kesavan20021111@gmail.com  
 📍 Tamil Nadu, India
 
