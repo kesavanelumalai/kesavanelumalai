@@ -1,69 +1,117 @@
-# Hi, I'm Kesavan E 👋  
-Transforming data into intelligent solutions through machine learning and analytics.  
-Bridging data, code, and business insights for impactful real-world applications.
+<div align="center">
+
+# Kesavan E
+
+### AI Engineer · Computer Vision · LLM Applications (RAG)
+
+Building production-minded AI systems: from medical imaging models to retrieval-augmented LLM applications.
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-kesavandatascientist-0A66C2?style=for-the-badge&logo=netlify&logoColor=white)](https://kesavandatascientist-portfolio.netlify.app/#home)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-kesavan--elumalai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/kesavan-elumalai)
+[![Email](https://img.shields.io/badge/Email-kesavan20021111@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kesavan20021111@gmail.com)
+
+</div>
 
 ---
 
-## 👨‍💻 About Me  
-🎓 M.Sc. in Data Science | Bharathiar University, Coimbatore  
-📊 B.Sc. in Statistics | Government Arts College, Coimbatore  
-💡 Passionate about ML, data analysis, and real-time deployment  
-🚀 Building end-to-end data products using AI, APIs, and automation  
-🔍 Exploring deep learning, stock prediction, and AI ethics
+## About
+
+I'm an AI Engineer with an M.Sc. in Data Science and a B.Sc. in Statistics. I build end-to-end machine learning systems, from data processing and model training to evaluation and deployment.
+
+- 🏥 Currently developing deep learning models in **PyTorch** for **medical image classification, object detection, and segmentation** (MRI, CT, X-ray) at Mazo Solutions
+- 🤖 Built a fully offline **RAG** system with FAISS, sentence embeddings, and Hugging Face models, served through **FastAPI**
+- 🎯 Focused on measurable results: precision, recall, F1, and mAP, with reproducible, config-driven experiments on cloud GPUs
+- 🎓 Trained 100+ students in Python, ML, and Deep Learning, and guided 20+ end-to-end ML projects
 
 ---
 
-## 🧠 Technical Skills  
-**Languages:** Python, SQL, R  
-**Libraries:** Pandas, NumPy, Scikit-learn, TensorFlow, Keras, XGBoost, Matplotlib, Seaborn  
-**Tools:** Power BI, Tableau, Excel, FastAPI, Git, Streamlit, Django  
-**Deployment:** Flutter, FastAPI, Heroku  
-**Cloud:** Google Cloud (GCP), AWS (basics)
+## Experience
+
+| Role | Organization | Period |
+|---|---|---|
+| Software Developer Trainee (Medical Imaging / Deep Learning) | Mazo Solutions | Feb 2026 – Present |
+| Artificial Intelligence Trainer | Edukators | Aug 2025 – Feb 2026 |
+| Machine Learning & AI Intern | NoviTech R&D Pvt. Ltd. | Aug 2025 |
+| Data Science Intern | Internship Studio | Apr 2025 – Jun 2025 |
 
 ---
 
-## 📊 Featured Projects
+## Featured Projects
 
-### 📈 Stock Price Prediction & Recommendation App  
-Built a BiLSTM + XGBoost hybrid model to predict stock prices of HDFC, SBI, TATAMOTORS, COAL.  
-Deployed using **FastAPI + Flutter** with live prediction and buy/sell recommendations.  
-🧰 Python, Keras, XGBoost, Flutter, FastAPI
+### 📄 [PDF Question-Answering System (RAG + LLM)](https://github.com/kesavanelumalai/RAG)
+A fully offline retrieval-augmented generation app that answers questions from uploaded PDFs with **page-level source citations** and an "I don't know" fallback to reduce hallucination.
+- Pipeline: PDF extraction → overlapping chunking (800 chars, 150 overlap) → MiniLM embeddings → FAISS top-k retrieval → FLAN-T5 with a grounded prompt
+- Persistent vector store; REST API (`/upload`, `/ask`, `/status`) with a web UI
 
-### 🔎 Tesla Stock Forecasting  
-Developed LSTM and GRU models on 3,400+ Tesla stock points.  
-Achieved 96.7% training accuracy; applied RSI, MACD, and moving averages.  
-📊 Visualized predictions vs actual using Matplotlib.
+`Python` `FastAPI` `FAISS` `Sentence-Transformers` `Hugging Face` `FLAN-T5` `PyPDF`
 
-### 📊 COVID-19 & Loan Data Analysis  
-Performed EDA on global COVID and loan datasets using Python.  
-Cleaned and visualized trends for case counts, mortality, and financial impact.
+### 🎥 [Time-Based Real-Time Object Detection & Logging](https://github.com/kesavanelumalai/TimeBased-Real-Time-Object-Detection-and-Logging-System)
+Real-time multi-object detection on live webcam streams with YOLOv8 at **~25 FPS**.
+- Logs each object's first-appearance timestamp and auto-captures images
+- Reduced duplicate detections by **~40%**
 
----
+`Python` `YOLOv8` `OpenCV` `Computer Vision`
 
-## 💼 Experience
+### 📝 [AI Resume Screening & ATS Scoring](https://github.com/kesavanelumalai/AI-RESUMESCREENER)
+An NLP application that compares a PDF resume against a job description and produces an ATS match score and match level.
+- Text-processing pipeline and skill extractor, combining text similarity with a skill-match score
+- Delivered as both a FastAPI web app and a Streamlit interface
 
-**Machine Learning Intern – Cognifyz Technologies (Aug 2025 – Present)**  
-Hands-on ML projects including model training, evaluation, and API deployment.
+`Python` `NLTK` `FastAPI` `Streamlit`
 
-**Data Analyst Intern – iSTUDIO (Oct 2025)**  
-Worked on cleaning, transforming, and analyzing real-world datasets.
+### 📈 Stock Price Prediction & Recommendation App
+A BiLSTM + XGBoost hybrid model predicting prices for HDFC, SBI, Tata Motors, and Coal India, deployed with FastAPI and Flutter with live predictions and buy/sell signals.
 
-
-ARTIFICIAL INTELLIGENCE - TRAINER
-
+`Python` `Keras` `XGBoost` `FastAPI` `Flutter`
 
 ---
 
-## 🏆 Certifications  
-- ✅ Deloitte Data Analytics Job Simulation – Forage  
-- ✅ Data Science Internship – Internship Studio                                                                                                                      
-- ✅ Data Analytics with Python – NPTEL  
-- ✅ Soft Skills Development Program – Infosys  
-- ✅ Power BI – IBacus Tech                                                                                                                                               
+## Technical Skills
+
+| Area | Technologies |
+|---|---|
+| **Languages** | Python, SQL, R |
+| **Deep Learning & CV** | PyTorch, TensorFlow, Keras, CNN, RNN, LSTM, GRU, Transfer Learning, YOLOv8, OpenCV, Segmentation, Pseudo-Labeling |
+| **NLP & LLMs** | Hugging Face Transformers, RAG, FAISS, Embeddings, Prompt Engineering, Fine-Tuning, Ollama, spaCy, NLTK |
+| **Machine Learning** | Scikit-Learn, Feature Engineering, Hyperparameter Tuning, Cross-Validation, Model Evaluation |
+| **MLOps & Tracking** | Docker, MLflow, Weights & Biases, Git, GitHub |
+| **Deployment** | FastAPI, Streamlit |
+| **Data & Visualization** | Pandas, NumPy, Matplotlib, Seaborn, Plotly, Power BI, Tableau |
+| **Cloud & Platforms** | RunPod (GPU training), Google Cloud Platform, Jupyter, Kaggle |
+
 ---
 
-📫 **Let's connect!**  
-www.linkedin.com/in/kesavan-elumalai
-📧 kesavan20021111@gmail.com  
-📍 Tamil Nadu, India
+## Education
 
+- **M.Sc. Data Science**, Bharathiar University, Coimbatore (2023 – 2025)
+- **B.Sc. Statistics**, Government Arts College, Coimbatore (2020 – 2023)
+
+---
+
+## Certifications
+
+- Power BI Certification, I-Bacus Tech (Jun 2024)
+- Data Analytics with Python, NPTEL (Apr 2024)
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+![Kesavan's GitHub stats](https://github-readme-stats.vercel.app/api?username=kesavanelumalai&show_icons=true&theme=default&hide_border=true)
+![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kesavanelumalai&layout=compact&hide_border=true)
+
+</div>
+
+---
+
+<div align="center">
+
+### Let's connect
+
+Open to AI/ML engineering opportunities in computer vision, medical imaging, and LLM applications.
+
+[Portfolio](https://kesavandatascientist-portfolio.netlify.app/#home) · [LinkedIn](https://www.linkedin.com/in/kesavan-elumalai) · [Email](mailto:kesavan20021111@gmail.com)
+
+</div>
